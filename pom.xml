@@ -126,5 +126,12 @@
 		</dependency>
 
 	</dependencies>
+	<distributionManagement>
+    		<repository>
+     		<id>github</id>
+     		<name>GitHub azuzi ld-signature-java</name>
+     		<url>https://maven.pkg.github.com/azuzi/ld-signatures-java</url>
+     	</repository>
+   </distributionManagement>
 
 </project>
