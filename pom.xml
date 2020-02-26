@@ -1,12 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>info.weboftrust</groupId>
 	<artifactId>ld-signatures-java</artifactId>
 	<packaging>jar</packaging>
-	<version>0.2</version>
+	<version>0.1.2-SNAPSHOT</version>
 	<name>ld-signatures-java</name>
 
 	<issueManagement>
@@ -15,9 +13,9 @@
 	</issueManagement>
 
 	<scm>
-		<url>https://github.com/WebOfTrustInfo/ld-signatures-java</url>
-		<connection>scm:git:git://github.com/WebOfTrustInfo/ld-signatures-java.git</connection>
-		<developerConnection>scm:git:git@github.com:WebOfTrustInfo/ld-signatures-java.git</developerConnection>
+		<url>https://github.com/azuzi/ld-signatures-java</url>
+		<connection>scm:git:git://github.com/azuzi/ld-signatures-java.git</connection>
+		<developerConnection>scm:git:git@github.com:azuzi/ld-signatures-java.git</developerConnection>
 	</scm>
 
 	<repositories>
@@ -81,6 +79,29 @@
 					<includeScope>runtime</includeScope>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>info.plichta.maven.plugins</groupId>
+				<artifactId>git-changelog-maven-plugin</artifactId>
+				<version>0.5.1</version>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>3.0.0-M1</version>
+				<configuration>
+					<tagNameFormat>v@{project.version}</tagNameFormat>
+					<pomFileName>pom.xml</pomFileName>
+					<preparationGoals>clean git-changelog:git-changelog scm:checkin -DpushChanges=false -Dincludes=CHANGELOG.md -Dmessage="[maven-release-plugin] Update CHANGELOG.md" verify</preparationGoals>
+					<completionGoals>git-changelog:git-changelog scm:checkin -DpushChanges=false -Dincludes=CHANGELOG.md -Dmessage="[maven-release-plugin] Update CHANGELOG.md"</completionGoals>
+				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-scm-plugin</artifactId>
+						<version>1.8.1</version>
+					</dependency>
+				</dependencies>
+			</plugin>			
 		</plugins>
 
 	</build>
