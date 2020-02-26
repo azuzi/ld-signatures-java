@@ -4,7 +4,7 @@
 	<groupId>info.weboftrust</groupId>
 	<artifactId>ld-signatures-java</artifactId>
 	<packaging>jar</packaging>
-	<version>0.1.2-SNAPSHOT</version>
+	<version>0.1.2</version>
 	<name>ld-signatures-java</name>
 
 	<issueManagement>
@@ -16,7 +16,8 @@
 		<url>https://github.com/azuzi/ld-signatures-java</url>
 		<connection>scm:git:git://github.com/azuzi/ld-signatures-java.git</connection>
 		<developerConnection>scm:git:git@github.com:azuzi/ld-signatures-java.git</developerConnection>
-	</scm>
+	  <tag>v0.1.2</tag>
+  </scm>
 
 	<repositories>
 		<repository>
