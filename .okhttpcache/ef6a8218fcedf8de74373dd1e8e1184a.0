@@ -7,12 +7,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 Content-Length: 2
 X-GitHub-Media-Type: github.v3; format=json
-Date: Wed, 04 Mar 2020 10:13:35 GMT
+Date: Wed, 04 Mar 2020 10:29:56 GMT
 Server: GitHub.com
 Status: 304 Not Modified
 X-RateLimit-Limit: 60
 X-RateLimit-Remaining: 60
-X-RateLimit-Reset: 1583320415
+X-RateLimit-Reset: 1583321396
 Cache-Control: public, max-age=60, s-maxage=60
 Vary: Accept
 ETag: "d751713988987e9331980363e24189ce"
@@ -25,9 +25,9 @@ X-XSS-Protection: 1; mode=block
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
 Vary: Accept-Encoding, Accept, X-Requested-With
-X-GitHub-Request-Id: A02E:35677:149EA50:182B2F1:5E5F7F4F
-OkHttp-Sent-Millis: 1583316815495
-OkHttp-Received-Millis: 1583316815659
+X-GitHub-Request-Id: D1EA:12702:A53AF9:C15137:5E5F8324
+OkHttp-Sent-Millis: 1583317796487
+OkHttp-Received-Millis: 1583317796676
 
 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 2
