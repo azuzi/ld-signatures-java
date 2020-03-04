@@ -116,6 +116,7 @@
 							<goal> git-changelog</goal>
 						</goals>
 						<configuration>
+							<toRef>HEAD</toRef>
 							<templateContent>
 								<![CDATA[
 # Changelog
