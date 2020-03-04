@@ -1,8 +1,13 @@
 # Changelog
 Changelog.
 
-## Unreleased
+## v0.1.4
 ### No issue
+
+**test2**
+
+
+[6795297b069fba9](https://github.com/azuzi/ld-signatures-java/commit/6795297b069fba9) Ahamed Azeem *2020-03-04 11:20:49*
 
 **test2**
 
