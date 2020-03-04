@@ -1,351 +1,73 @@
-# Changelog
-Changelog.
-
-## v0.1.2
-### No issue
-
-**Changelog and Maven release plugin**
-
-
-[ad228fdd83ab55c](https://github.com/azuzi/ld-signatures-java/commit/ad228fdd83ab55c) Ahamed Azeem *2020-02-26 13:13:51*
-
-**Distribution management**
-
-
-[8149d1bc5be9411](https://github.com/azuzi/ld-signatures-java/commit/8149d1bc5be9411) Ahamed Azeem *2020-02-19 11:51:38*
-
-**Distribution management**
-
-
-[d1595c99fe41f6c](https://github.com/azuzi/ld-signatures-java/commit/d1595c99fe41f6c) Ahamed Azeem *2020-02-19 11:42:50*
-
-**Added test-step**
-
-
-[36f4a96fb6e8772](https://github.com/azuzi/ld-signatures-java/commit/36f4a96fb6e8772) Philipp Potisk *2020-01-27 13:06:10*
-
-**Using custom build-env**
-
-
-[0308e760cf44312](https://github.com/azuzi/ld-signatures-java/commit/0308e760cf44312) Philipp Potisk *2020-01-27 13:01:12*
-
-**Job is running on every push**
-
-
-[026fb0a6c81bf6f](https://github.com/azuzi/ld-signatures-java/commit/026fb0a6c81bf6f) Philipp Potisk *2020-01-27 12:29:22*
-
-**Added GitHub workflowfile**
-
-
-[2e58297ae0ec1e1](https://github.com/azuzi/ld-signatures-java/commit/2e58297ae0ec1e1) Philipp Potisk *2020-01-27 11:47:10*
-
-**Build-image is now hosted at GitLab registry**
-
-
-[0a230741951d8c8](https://github.com/azuzi/ld-signatures-java/commit/0a230741951d8c8) Philipp Potisk *2020-01-27 11:02:53*
-
-**Corrected image-tag**
-
-
-[a47fd261dbe7dea](https://github.com/azuzi/ld-signatures-java/commit/a47fd261dbe7dea) Philipp Potisk *2020-01-27 10:42:41*
-
-**Using own Docker image as build-env**
-
-
-[d10375bc86832a8](https://github.com/azuzi/ld-signatures-java/commit/d10375bc86832a8) Philipp Potisk *2020-01-27 10:39:53*
-
-**Added GitLab config**
-
-
-[814d0750bdef513](https://github.com/azuzi/ld-signatures-java/commit/814d0750bdef513) Philipp Potisk *2020-01-27 09:50:52*
-
-**Some refactoring of super/subclasses.**
-
- * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
-
-[91ceb09c0044c27](https://github.com/azuzi/ld-signatures-java/commit/91ceb09c0044c27) Markus Sabadello *2020-01-15 10:13:33*
-
-**Add check for correct signature suite.**
-
- * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
-
-[178759ce1118046](https://github.com/azuzi/ld-signatures-java/commit/178759ce1118046) Markus Sabadello *2020-01-15 10:00:22*
-
-**Require private key and public key for Ed25519 signing.**
-
- * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
-
-[ca9460e336f2b70](https://github.com/azuzi/ld-signatures-java/commit/ca9460e336f2b70) Markus Sabadello *2020-01-15 08:51:05*
-
-**Check URI or String class.**
-
- * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
-
-[4c71790a34d1cec](https://github.com/azuzi/ld-signatures-java/commit/4c71790a34d1cec) Markus Sabadello *2020-01-13 20:21:42*
-
-**Expect only the private key for signing; and add logging of key sizes.**
-
- * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
-
-[20ef5eb4abc237b](https://github.com/azuzi/ld-signatures-java/commit/20ef5eb4abc237b) Markus Sabadello *2020-01-11 21:12:54*
-
-**Modularize signing and verification operations.**
-
- * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
-
-[923d070834a0d2f](https://github.com/azuzi/ld-signatures-java/commit/923d070834a0d2f) Markus Sabadello *2020-01-10 14:54:38*
-
-**RsaSignature2018 suite uses only the RS256 algorithm.**
-
- * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
-
-[4cbbb55d7618b5d](https://github.com/azuzi/ld-signatures-java/commit/4cbbb55d7618b5d) Markus Sabadello *2020-01-10 09:34:17*
-
-**Make Indy dependency optional.**
-
- * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
-
-[f83a59ac937b390](https://github.com/azuzi/ld-signatures-java/commit/f83a59ac937b390) Markus Sabadello *2019-12-13 10:05:43*
-
-**Fix Indy dependency.**
-
- * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
-
-[2b86e645c776b4e](https://github.com/azuzi/ld-signatures-java/commit/2b86e645c776b4e) Markus Sabadello *2019-12-13 09:14:59*
-
-**Remove dependency on jose4j.**
-
- * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
-
-[647e1ea947d0623](https://github.com/azuzi/ld-signatures-java/commit/647e1ea947d0623) Markus Sabadello *2019-11-30 18:59:14*
-
-**Refactor everything.**
-
- * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
-
-[5c8ed2656c20e09](https://github.com/azuzi/ld-signatures-java/commit/5c8ed2656c20e09) Markus Sabadello *2019-11-17 17:13:08*
-
-**Continue with 0.2-SNAPSHOT.**
-
- * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
-
-[b0b469b91857b8c](https://github.com/azuzi/ld-signatures-java/commit/b0b469b91857b8c) Markus Sabadello *2019-11-12 09:20:47*
-
-**0.1 release.**
-
- * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
-
-[342e134a0584c0a](https://github.com/azuzi/ld-signatures-java/commit/342e134a0584c0a) Markus Sabadello *2019-11-12 09:18:24*
-
-**Add EcdsaSecp256k1Signature2019**
-
- * Signed-off-by: Markus Sabadello &lt;markus@danubetech.com&gt;
-
-[262a7c26a48a9da](https://github.com/azuzi/ld-signatures-java/commit/262a7c26a48a9da) Markus Sabadello *2019-09-20 06:24:50*
-
-**Update to README.**
-
-
-[cd135971643a811](https://github.com/azuzi/ld-signatures-java/commit/cd135971643a811) Markus Sabadello *2019-06-15 19:37:33*
-
-**Update JSON-LD contexts.**
-
-
-[8b005ae6ee6474f](https://github.com/azuzi/ld-signatures-java/commit/8b005ae6ee6474f) Markus Sabadello *2019-06-15 18:34:39*
-
-**Bump dependency versions.**
-
-
-[f6848af7ce01d81](https://github.com/azuzi/ld-signatures-java/commit/f6848af7ce01d81) Markus Sabadello *2019-06-15 18:34:08*
-
-**signature->proof**
-
-
-[c44aefef72826bb](https://github.com/azuzi/ld-signatures-java/commit/c44aefef72826bb) Markus Sabadello *2019-06-15 18:33:10*
-
-**Bump jose4j**
-
-
-[a2228899973241e](https://github.com/azuzi/ld-signatures-java/commit/a2228899973241e) Markus Sabadello *2019-06-15 12:54:50*
-
-**Fix whitespace.**
-
-
-[59460fcee3836a7](https://github.com/azuzi/ld-signatures-java/commit/59460fcee3836a7) Markus Sabadello *2019-06-15 12:16:01*
-
-**Bump Maven dependencies.**
-
-
-[e430faaaace5e3e](https://github.com/azuzi/ld-signatures-java/commit/e430faaaace5e3e) Markus Sabadello *2019-06-15 12:15:16*
-
-**RsaSignature2017 -> RsaSignature2018**
-
-
-[27a772d9a414e58](https://github.com/azuzi/ld-signatures-java/commit/27a772d9a414e58) Markus Sabadello *2019-06-15 12:15:11*
-
-**Bump indy-sdk dependency version.**
-
-
-[da0a61f3ad32281](https://github.com/azuzi/ld-signatures-java/commit/da0a61f3ad32281) Markus Sabadello *2019-06-15 12:02:54*
-
-**Support for signing directly with libindy.**
-
-
-[6fde38af8697a73](https://github.com/azuzi/ld-signatures-java/commit/6fde38af8697a73) Markus Sabadello *2018-06-05 08:52:20*
-
-**Use jsonld-java 0.12.0.**
-
-
-[43eb3b716ecc730](https://github.com/azuzi/ld-signatures-java/commit/43eb3b716ecc730) Markus Sabadello *2018-04-27 11:48:46*
-
-**Convenience method.**
-
-
-[2a634e2b60c134a](https://github.com/azuzi/ld-signatures-java/commit/2a634e2b60c134a) Markus Sabadello *2018-03-27 15:18:09*
-
-**Obtain signer/validator based on signature type.**
-
-
-[f37196fe412532a](https://github.com/azuzi/ld-signatures-java/commit/f37196fe412532a) Markus Sabadello *2018-03-26 09:43:56*
-
-**Add support for EcdsaKoblitzSignature2016**
-
-
-[ddba3b1a51f4c52](https://github.com/azuzi/ld-signatures-java/commit/ddba3b1a51f4c52) Markus Sabadello *2018-03-15 21:18:29*
-
-**Update signatureAlgorithm parameter for lds-ed25519-2018**
-
-
-[bef985cea671f59](https://github.com/azuzi/ld-signatures-java/commit/bef985cea671f59) Markus Sabadello *2018-03-15 21:04:44*
-
-**Add LICENSE.**
-
-
-[54d1ea71982b004](https://github.com/azuzi/ld-signatures-java/commit/54d1ea71982b004) Markus Sabadello *2018-03-15 10:37:14*
-
-**Use sov DIDs as example issuer.**
-
-
-[846a2dbda4e970d](https://github.com/azuzi/ld-signatures-java/commit/846a2dbda4e970d) Markus Sabadello *2018-02-13 13:53:08*
-
-**Fix RsaSignature2017 unit test**
-
-
-[138d81a1462c03c](https://github.com/azuzi/ld-signatures-java/commit/138d81a1462c03c) Markus Sabadello *2018-02-06 22:44:43*
-
-**Method to create keys from seed.**
-
-
-[627be9889c4e82f](https://github.com/azuzi/ld-signatures-java/commit/627be9889c4e82f) Markus Sabadello *2018-01-30 15:19:52*
-
-**Experimental support for Ed25519.**
-
-
-[ae02e839a3431ea](https://github.com/azuzi/ld-signatures-java/commit/ae02e839a3431ea) Markus Sabadello *2018-01-30 10:14:48*
-
-**simplify tests**
-
-
-[ac94789a76e1e80](https://github.com/azuzi/ld-signatures-java/commit/ac94789a76e1e80) Markus Sabadello *2018-12-31 13:19:42*
-
-**whitespace**
-
-
-[f15c65184d95f9d](https://github.com/azuzi/ld-signatures-java/commit/f15c65184d95f9d) Markus Sabadello *2018-12-31 13:00:24*
-
-**clean up imports**
-
-
-[d51a42d56720121](https://github.com/azuzi/ld-signatures-java/commit/d51a42d56720121) Markus Sabadello *2018-12-31 12:08:49*
-
-**make sure we add the @context for LD signatures**
-
-
-[bbda04ecdb0a6fb](https://github.com/azuzi/ld-signatures-java/commit/bbda04ecdb0a6fb) Markus Sabadello *2018-12-31 12:08:49*
-
-**more tests**
-
-
-[ab270f55c113d38](https://github.com/azuzi/ld-signatures-java/commit/ab270f55c113d38) Markus Sabadello *2018-12-31 12:08:49*
-
-**don't need the @context for verifiable credentials in this repo**
-
-
-[a4abd856fab8757](https://github.com/azuzi/ld-signatures-java/commit/a4abd856fab8757) Markus Sabadello *2018-12-31 12:08:49*
-
-**@type needs a list of strings, not URIs**
-
-
-[7bf4d4d5360d1a7](https://github.com/azuzi/ld-signatures-java/commit/7bf4d4d5360d1a7) Markus Sabadello *2017-12-29 20:26:55*
-
-**factory method**
-
-
-[caa3e560e0fce84](https://github.com/azuzi/ld-signatures-java/commit/caa3e560e0fce84) Markus Sabadello *2017-12-29 19:39:11*
-
-**convenience method**
-
-
-[6e1b1486eb68d8a](https://github.com/azuzi/ld-signatures-java/commit/6e1b1486eb68d8a) Markus Sabadello *2017-12-29 19:39:11*
-
-**support for validation**
-
-
-[334d888b2f156a3](https://github.com/azuzi/ld-signatures-java/commit/334d888b2f156a3) Markus Sabadello *2017-12-29 16:50:08*
-
-**some method refactoring**
-
-
-[279e8338cbbe8fa](https://github.com/azuzi/ld-signatures-java/commit/279e8338cbbe8fa) Markus Sabadello *2017-12-29 15:43:17*
-
-**typo**
-
-
-[095261c6866b373](https://github.com/azuzi/ld-signatures-java/commit/095261c6866b373) Markus Sabadello *2017-12-26 11:18:59*
-
-**add jarcache for credentials-v1.jsonld and security-v1.jsonld**
-
-
-[c62d731d870fdff](https://github.com/azuzi/ld-signatures-java/commit/c62d731d870fdff) Markus Sabadello *2017-12-26 11:03:31*
-
-**bump jsonld-java 0.11.1**
-
-
-[1f8d060bb660af8](https://github.com/azuzi/ld-signatures-java/commit/1f8d060bb660af8) Markus Sabadello *2017-12-26 11:03:07*
-
-**add Maven information**
-
-
-[661b84ce9312e7e](https://github.com/azuzi/ld-signatures-java/commit/661b84ce9312e7e) peacekeeper *2017-08-07 10:51:47*
-
-**jsonld-signatures-java -> ld-signatures-java**
-
-
-[ce1dfd341bf57aa](https://github.com/azuzi/ld-signatures-java/commit/ce1dfd341bf57aa) peacekeeper *2017-04-28 07:07:13*
-
-**ld-signatures-java -> jsonld-signatures-java**
-
-
-[2a5fd6e0f3b14ff](https://github.com/azuzi/ld-signatures-java/commit/2a5fd6e0f3b14ff) peacekeeper *2017-04-27 07:06:14*
-
-**minor code cleanup**
-
-
-[2d1552240c84c95](https://github.com/azuzi/ld-signatures-java/commit/2d1552240c84c95) peacekeeper *2017-04-22 19:09:56*
-
-**some more tests**
-
-
-[58920b2f1211a4d](https://github.com/azuzi/ld-signatures-java/commit/58920b2f1211a4d) peacekeeper *2017-04-21 19:45:44*
-
-**fix signature type**
-
-
-[920802a561e44f7](https://github.com/azuzi/ld-signatures-java/commit/920802a561e44f7) peacekeeper *2017-04-21 19:45:31*
-
-**some code cleanup**
-
-
-[3dc9d1d009771ae](https://github.com/azuzi/ld-signatures-java/commit/3dc9d1d009771ae) peacekeeper *2017-04-21 19:34:49*
-
+# Change Log
+
+## 0.1.3
+* test [94af809](94af8094e8ec85ba009b9a9b1336fedac9ec3f2b)
+* Changelog and Maven release plugin [ad228fd](ad228fdd83ab55c0cd11f3b8e86896276cc2415d)
+* Distribution management [8149d1b](8149d1bc5be94116e609e69c82122f78115d9ef2)
+* Distribution management [d1595c9](d1595c99fe41f6cdecc799419d5f9d3927447584)
+* Merge branch &#39;cicd&#39; into &#39;master&#39; [1243da9](1243da9fd2c8acfa67fca185bb6f5db8fb597f8a)
+    * Added test-step [36f4a96](36f4a96fb6e8772e81a12734aceb7b6884a17d07)
+    * Using custom build-env [0308e76](0308e760cf44312f02522e8456221de6c69f13cc)
+    * Job is running on every push [026fb0a](026fb0a6c81bf6f1aae4e22b53b32ecb80648448)
+    * Added GitHub workflowfile [2e58297](2e58297ae0ec1e1340a2e3b4fba781a9736c3d76)
+    * Build-image is now hosted at GitLab registry [0a23074](0a230741951d8c826dc54994f3512c40574fe175)
+    * Corrected image-tag [a47fd26](a47fd261dbe7dea6a43845a1bfe062b546951013)
+    * Using own Docker image as build-env [d10375b](d10375bc86832a88866ddd27a7f61b96937c7659)
+    * Added GitLab config [814d075](814d0750bdef513a5f065b440465b262f06e36e9)
+* Some refactoring of super/subclasses. [91ceb09](91ceb09c0044c27268612106e802f975b94fb882)
+* Add check for correct signature suite. [178759c](178759ce111804635092d7aa549752c0212548b1)
+* Require private key and public key for Ed25519 signing. [ca9460e](ca9460e336f2b70c28fe583c8818dd0699dfb1d8)
+* Check URI or String class. [4c71790](4c71790a34d1cecbdf59de2b1a22309ea7e7f45c)
+* Expect only the private key for signing; and add logging of key sizes. [20ef5eb](20ef5eb4abc237b9bee3981bc5f16e8f62b0e73f)
+* Modularize signing and verification operations. [923d070](923d070834a0d2fef6e442ab9726063584e16adf)
+* RsaSignature2018 suite uses only the RS256 algorithm. [4cbbb55](4cbbb55d7618b5d9ea69a2469ee0d82428514f77)
+* Make Indy dependency optional. [f83a59a](f83a59ac937b3905d9d22916d66916802f1a2f28)
+* Fix Indy dependency. [2b86e64](2b86e645c776b4e6a2473b3f2fef0099bc0255aa)
+* Remove dependency on jose4j. [647e1ea](647e1ea947d06237cb6fbfcb2d759d08ad41d930)
+* Refactor everything. [5c8ed26](5c8ed2656c20e0942e794b0fe15fb233f91f720b)
+* Continue with 0.2-SNAPSHOT. [b0b469b](b0b469b91857b8cc4223fe5655a29e18d6c0520a)
+* 0.1 release. [342e134](342e134a0584c0ada6ce29ce126a5e573b74b4f6)
+* Add EcdsaSecp256k1Signature2019 [262a7c2](262a7c26a48a9da95bceba85d6313e72eab892b0)
+* Update to README. [cd13597](cd135971643a811929d1d330b783f9d7b593f4c3)
+* Update JSON-LD contexts. [8b005ae](8b005ae6ee6474fb31f219ea4f4128c1f2c1767d)
+* Bump dependency versions. [f6848af](f6848af7ce01d811c34ced4ec7da3aba088faa9c)
+* signature-&gt;proof [c44aefe](c44aefef72826bb4c12d02c37980fe570366904b)
+* Bump jose4j [a222889](a2228899973241edae7766e69836cdcec7fcdb32)
+* Fix whitespace. [59460fc](59460fcee3836a7e65ae18ca60e3964d6234cb7a)
+* Bump Maven dependencies. [e430faa](e430faaaace5e3e1c7da8d89ddb51ac4248b0d75)
+* RsaSignature2017 -&gt; RsaSignature2018 [27a772d](27a772d9a414e584b67237ee53e47434533a4b4c)
+* Bump indy-sdk dependency version. [da0a61f](da0a61f3ad32281ff6f65cab419da5dfb7606399)
+* Support for signing directly with libindy. [6fde38a](6fde38af8697a73ba3df87922cd4421d647ba0f1)
+* Use jsonld-java 0.12.0. [43eb3b7](43eb3b716ecc73008c8ef0603cc2104d7627aa0e)
+* Convenience method. [2a634e2](2a634e2b60c134a75c74270c846b0fa7e88dfc49)
+* Obtain signer/validator based on signature type. [f37196f](f37196fe412532a73b430bc18fdfd067ff696b42)
+* Add support for EcdsaKoblitzSignature2016 [ddba3b1](ddba3b1a51f4c524fef60aa28f5bd4651e6fb352)
+* Update signatureAlgorithm parameter for lds-ed25519-2018 [bef985c](bef985cea671f59c2fe93d656951569b7fa3a609)
+* Add LICENSE. [54d1ea7](54d1ea71982b004bd62d0b4a0f95888e780ffe4a)
+* Use sov DIDs as example issuer. [846a2db](846a2dbda4e970dbe8efa6bad0d46f1bab06f2c2)
+* Fix RsaSignature2017 unit test [138d81a](138d81a1462c03ca1302172823d5e1209f2c8e3d)
+* Method to create keys from seed. [627be98](627be9889c4e82fd7e540b4a7f71b7807e9c9f02)
+* Experimental support for Ed25519. [ae02e83](ae02e839a3431eae0c44f1210e6160e486c43b3c)
+* simplify tests [ac94789](ac94789a76e1e806989072c4373a7a48357d838e)
+* whitespace [f15c651](f15c65184d95f9d2c343f3fd285d32e53046cff5)
+* clean up imports [d51a42d](d51a42d5672012163183e1e65571d45b65bf2e86)
+* more tests [ab270f5](ab270f55c113d3887bcef30142721642a78d006f)
+* don&#39;t need the @context for verifiable credentials in this repo [a4abd85](a4abd856fab8757124b453a869b8832e54f9a539)
+* make sure we add the @context for LD signatures [bbda04e](bbda04ecdb0a6fb58da75690f52dd8c47cb2cdc2)
+* @type needs a list of strings, not URIs [7bf4d4d](7bf4d4d5360d1a78cf54be0b58252d2a19401dc2)
+* convenience method [6e1b148](6e1b1486eb68d8a47174accf059cbfe490135024)
+* factory method [caa3e56](caa3e560e0fce84ee518ade6f18cc6cae4b715a0)
+* support for validation [334d888](334d888b2f156a3848702d54484877925c956d37)
+* some method refactoring [279e833](279e8338cbbe8fa1cf1450477832549225e9b92a)
+* typo [095261c](095261c6866b373b9e0534bcb261c5059110bdc2)
+* add jarcache for credentials-v1.jsonld and security-v1.jsonld [c62d731](c62d731d870fdffba7292b69dd6a88901d89e3f7)
+* bump jsonld-java 0.11.1 [1f8d060](1f8d060bb660af87605a6a2555d2b33afe9fe92a)
+* add Maven information [661b84c](661b84ce9312e7ebf8e1c630db3efc0e9cb9e4ae)
+* jsonld-signatures-java -&gt; ld-signatures-java [ce1dfd3](ce1dfd341bf57aa1a0c9fb9fc0b4e5feabc951e7)
+* ld-signatures-java -&gt; jsonld-signatures-java [2a5fd6e](2a5fd6e0f3b14ff398aa0eb475581bfc4f88de82)
+* minor code cleanup [2d15522](2d1552240c84c953c9a2109113f28c1103a67ae8)
+* some more tests [58920b2](58920b2f1211a4d5cf3c1d5fb09a02c07f53ee0e)
+* fix signature type [920802a](920802a561e44f780dac14c17aee48bc9fb0c356)
+* some code cleanup [3dc9d1d](3dc9d1d009771aed3f26b884c3d4278c15ebfbd9)
+* Initial commit [64f2b3f](64f2b3f38c89fc804e8ae8ed75ad01cfea0280bc)
 
