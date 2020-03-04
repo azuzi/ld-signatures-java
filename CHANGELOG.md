@@ -1,6 +1,6 @@
 # Change Log
 
-## 0.1.3
+## 0.1.4-SNAPSHOT
 * test [94af809](94af8094e8ec85ba009b9a9b1336fedac9ec3f2b)
 * Changelog and Maven release plugin [ad228fd](ad228fdd83ab55c0cd11f3b8e86896276cc2415d)
 * Distribution management [8149d1b](8149d1bc5be94116e609e69c82122f78115d9ef2)
